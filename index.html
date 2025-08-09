@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paginas</title>
+
 </head>
 <style>
-    div{
-        display: grid;
-        justify-items:center;
-    }
+    body {
+        margin: 0px;
+    background-color: black;
+    color: white;
+}
+header {
+    height: 195px;
+}
+img.iac {
+    position: absolute;
+    margin: 5px;
+    height: 5%;
+}
+img.brasil {
+    position: absolute;
+    margin: -19px 0% 0% 90%;
+    height: 6%;
+    transition: 1s;
+}
+img.brasil:hover{
+    position: absolute;
+    margin: 0px 0% 0% 90%;
+    height: 6%;
+    transition: 1s;
+}
+    div {
+    display: grid;
+    justify-items: center;
+}
     div a{
-        font-size: 50px;
+        margin: 5px;
+        font-size: 30px;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     div a:hover{
         text-decoration: underline;
@@ -21,10 +48,13 @@
     }
 </style>
 <body>
+    <header>
+        <img class="iac" src="Imagens/1753702319799.png" alt="iac">
+        <img class="brasil" src="Imagens/brasil bc.avif" alt="soccer">
+    </header>
     <div>
-    <a href="https://kayqueperinetti.github.io/atletas/">Atletas</a>
     <a href="https://kayqueperinetti.github.io/adm/">Administração</a>
-    <a href="https://kayqueperinetti.github.io/controle/">Contabilidade</a>
+    <a href="https://kayqueperinetti.github.io/sistema/">Sistema</a>
     <a href="https://kayqueperinetti.github.io/tabela/">Exibição</a>
     </div>
 </body>
